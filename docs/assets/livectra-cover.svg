@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="LIVECTRA 老李，本地图片转 SVG 矢量工作台">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15111f"/><stop offset=".56" stop-color="#252035"/><stop offset="1" stop-color="#111017"/></linearGradient>
+    <linearGradient id="v" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8eeff"/><stop offset=".52" stop-color="#c9b2fa"/><stop offset="1" stop-color="#8763c8"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#9371d3" stop-opacity=".35"/><stop offset="1" stop-color="#9371d3" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="28" fill="url(#grid)"/>
+  <ellipse cx="960" cy="190" rx="320" ry="260" fill="url(#glow)"/>
+  <rect x="48" y="40" width="1184" height="360" rx="18" fill="none" stroke="#d8c5ff" stroke-opacity=".15"/>
+  <path d="M66 87h14m-7-7v14M1200 345h14m-7-7v14" stroke="#d8c5ff" stroke-opacity=".55"/>
+  <g transform="translate(90 83)">
+    <rect width="62" height="62" rx="17" fill="#d2b4ff"/>
+    <path d="M13 13h12l8 27 9-27h11L38 50H27z" fill="#20192c"/>
+    <circle cx="49" cy="46" r="5" fill="#6a439d"/>
+  </g>
+  <text x="90" y="226" fill="#fffaf7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="750" letter-spacing="-3">LIVECTRA</text>
+  <text x="93" y="281" fill="#dcc9f3" font-family="Microsoft YaHei,Segoe UI,Arial,sans-serif" font-size="25" letter-spacing="2">老李的本地矢量工作台</text>
+  <path d="M92 314h430" stroke="#bca0de" stroke-opacity=".4"/>
+  <text x="93" y="357" fill="#bdb2c9" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">IMAGE → EDITABLE VECTOR · OPEN SOURCE</text>
+  <g transform="translate(813 46)">
+    <circle cx="177" cy="179" r="146" fill="#171420" stroke="#735f8d" stroke-width="1.5"/>
+    <path d="M156 20c85 4 144 73 155 142 12 81-45 151-126 163-82 13-151-40-164-117C5 122 71 15 156 20z" fill="url(#v)"/>
+    <path d="M173 64c57 4 105 51 112 105 8 61-32 109-88 120-60 11-113-26-124-84C63 144 110 60 173 64z" fill="#211a2c" stroke="#e8d8ff" stroke-opacity=".72" stroke-width="2"/>
+    <path d="M170 92c42 0 78 36 84 78 6 44-24 82-69 88-45 6-81-20-91-65-9-41 27-99 76-101z" fill="none" stroke="#c29df6" stroke-width="2"/>
+    <circle cx="174" cy="177" r="42" fill="#d9c0ff"/>
+    <circle cx="174" cy="177" r="17" fill="#372344"/>
+    <circle cx="174" cy="177" r="6" fill="#f8eaff"/>
+    <circle cx="16" cy="28" r="4" fill="#d2b4ff"/><circle cx="325" cy="297" r="5" fill="#d2b4ff"/>
+  </g>
+</svg>

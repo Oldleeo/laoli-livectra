@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="LIVECTRA 从本地文件到 SVG 下载的技术流程">
+  <rect width="1200" height="270" rx="18" fill="#f5f0eb"/>
+  <text x="36" y="44" fill="#7b6c7d" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">TECHNICAL FLOW / BROWSER ONLY</text>
+  <g fill="#fffdfb" stroke="#d8ccd9" stroke-width="1.5">
+    <rect x="36" y="76" width="205" height="150" rx="15"/><rect x="266" y="76" width="205" height="150" rx="15"/><rect x="496" y="76" width="205" height="150" rx="15"/><rect x="726" y="76" width="205" height="150" rx="15"/><rect x="956" y="76" width="205" height="150" rx="15"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8a68b6" font-weight="700"><text x="54" y="107">01 / INPUT</text><text x="284" y="107">02 / PIXELS</text><text x="514" y="107">03 / TRACE</text><text x="744" y="107">04 / DOM</text><text x="974" y="107">05 / OUTPUT</text></g>
+  <g font-family="Microsoft YaHei,Segoe UI,Arial,sans-serif" font-size="20" fill="#292132" font-weight="600"><text x="54" y="148">本地文件</text><text x="284" y="148">Canvas 像素</text><text x="514" y="148">色块与曲线</text><text x="744" y="148">SVG 路径</text><text x="974" y="148">编辑与下载</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#867b87"><text x="54" y="181">File API / Object URL</text><text x="284" y="181">≤ 1400 px / ImageData</text><text x="514" y="181">ImageTracerJS 1.2.6</text><text x="744" y="181">DOMParser / path</text><text x="974" y="181">XMLSerializer / Blob</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="27" fill="#a78bc5"><text x="244" y="159">›</text><text x="474" y="159">›</text><text x="704" y="159">›</text><text x="934" y="159">›</text></g>
+</svg>
