@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101015">
+  <meta name="description" content="LIVECTRA by 老李：在浏览器本地将图片转成可编辑的 SVG 矢量路径。开源、无需上传、无需注册。">
+  <title>LIVECTRA — 让灵感成为形状 · 老李</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow page-glow-a" aria-hidden="true"></div>
+  <div class="page-glow page-glow-b" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="LIVECTRA 首页">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 5h7l3 10 3-10h7L17.5 27h-3z" fill="currentColor"/><circle cx="25" cy="24" r="3" fill="#ba9bff"/></svg></span>
+      <span class="brand-name">LIVECTRA<span class="brand-by">by 老李</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="#studio">工作台</a><a href="#process">工作方式</a><a href="#principles">设计理念</a>
+    </nav>
+    <a class="nav-github" href="https://github.com/Oldleeo/laoli-livectra" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.31-3.75-1.31-.5-1.29-1.24-1.63-1.24-1.63-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 .1.73-.74 2.65-1.16.31-.58.77-.98 1.39-1.2-2.48-.28-5.09-1.24-5.09-5.54 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.97 0 0 .95-.31 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.13-1.46 3.07-1.15 3.07-1.15.62 1.54.23 2.69.12 2.97.73.79 1.16 1.79 1.16 3.02 0 4.31-2.61 5.26-5.1 5.53.79.69 1.49 2.04 1.49 4.11v3.05c0 .3.2.65.76.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+      <span>GitHub</span><span class="external-arrow">↗</span>
+    </a>
+  </header>
+
+  <main id="top">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> OPEN SOURCE VECTOR STUDIO <span class="eyebrow-line"></span> 01 / 03</div>
+        <h1 id="hero-title">让灵感<br>成为<span class="gradient-type">形状。</span></h1>
+        <p class="hero-lead">把图片转成可编辑的 SVG 矢量路径。<br>从第一笔自动描摹，到最后一处细节，创作始终在你手中。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#studio">打开工作台 <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#process">了解工作方式 <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-proof"><span class="proof-icon">✦</span> 浏览器本地处理 <span class="proof-sep"></span> 无需上传图片 <span class="proof-sep"></span> 免费开源</div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="visual-grid"></div>
+        <svg class="hero-art" viewBox="0 0 560 570">
+          <defs>
+            <linearGradient id="art-fill" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#f4e8ff"/><stop offset=".44" stop-color="#bca7f5"/><stop offset="1" stop-color="#7355b9"/></linearGradient>
+            <linearGradient id="art-dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#262131"/><stop offset="1" stop-color="#111017"/></linearGradient>
+            <linearGradient id="art-line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eeccff"/><stop offset="1" stop-color="#8c76df"/></linearGradient>
+          </defs>
+          <path d="M282 81 C346 95 381 152 426 190 C467 226 495 265 471 314 C448 364 387 374 351 418 C318 459 298 513 245 487 C195 465 194 406 151 379 C104 349 64 331 82 279 C98 232 155 220 175 178 C197 132 219 66 282 81 Z" fill="url(#art-dark)" stroke="#54496d" stroke-width="1.5"/>
+          <path d="M280 112 C332 119 370 169 402 199 C438 232 470 264 448 309 C429 346 374 357 337 401 C304 441 285 484 245 458 C207 435 203 390 160 362 C118 336 93 310 111 271 C130 231 173 222 197 177 C218 138 238 106 280 112 Z" fill="url(#art-fill)" opacity=".96"/>
+          <path d="M274 132 C315 145 343 179 375 212 C406 245 434 274 416 306 C397 340 355 349 320 388 C291 422 274 446 248 431 C218 414 215 380 179 350 C146 322 128 303 145 273 C159 244 192 228 218 187 C240 151 251 126 274 132 Z" fill="none" stroke="#fff6ff" stroke-width="1.2" opacity=".75"/>
+          <path d="M283 153 C311 179 326 205 351 233 C379 262 393 282 379 308 C363 333 332 347 300 375 C275 398 265 404 244 386 C222 366 212 338 188 313 C169 293 169 279 184 258 C208 225 229 204 246 172 C261 146 268 141 283 153 Z" fill="none" stroke="url(#art-line)" stroke-width="2.2"/>
+          <path d="M265 193 C287 211 300 240 316 259 C335 281 339 296 324 315 C308 334 282 339 265 359 C253 340 238 327 220 307 C207 289 210 276 223 259 C238 240 250 215 265 193 Z" fill="#f6ecff" opacity=".78"/>
+          <circle cx="272" cy="280" r="24" fill="#20192c"/><circle cx="272" cy="280" r="8" fill="#c8a9ff"/>
+          <circle cx="111" cy="186" r="4" fill="#bd9afd"/><circle cx="445" cy="400" r="5" fill="#bd9afd"/>
+        </svg>
+        <div class="visual-label visual-label-top"><span class="label-pulse"></span> VECTOR / PATHS</div>
+        <div class="visual-label visual-label-bottom">FORM STUDY <span>№ 001</span></div>
+        <div class="visual-corner corner-tl"></div><div class="visual-corner corner-br"></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">L/V — 2026</div>
+    </section>
+
+    <section class="marquee-band" aria-label="产品能力"><div class="marquee-inner">IMAGE TO VECTOR <span>✳</span> LOCAL BY DESIGN <span>✳</span> EDIT EVERY PATH <span>✳</span> IMAGE TO VECTOR <span>✳</span> LOCAL BY DESIGN <span>✳</span> EDIT EVERY PATH <span>✳</span></div></section>
+
+    <section class="studio-section" id="studio" aria-labelledby="studio-title">
+      <div class="container">
+        <div class="section-topline"><span>01 / STUDIO</span><span>MAKE IT VECTOR</span></div>
+        <div class="studio-heading"><div><p class="section-kicker">LIVECTRA STUDIO</p><h2 id="studio-title">从这里，开始重绘。</h2></div><p>选择图片，调整路径的精度与色彩。所有处理均在你的浏览器里完成。</p></div>
+
+        <div class="workspace">
+          <aside class="workspace-sidebar" aria-label="转换设置">
+            <div class="sidebar-head"><span class="sidebar-icon">✳</span><div><strong>创作面板</strong><small>VECTOR SETTINGS</small></div></div>
+            <div class="workspace-step"><span class="step-number">01</span><span>导入图片</span></div>
+            <label class="upload-zone" id="dropzone" for="fileInput" tabindex="0">
+              <input id="fileInput" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/bmp" hidden>
+              <span class="upload-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 21V6m0 0-6 6m6-6 6 6M7 22v4h18v-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <strong>点击或拖拽上传</strong><span>PNG · JPG · WEBP · GIF · BMP</span><small>建议不超过 10 MB</small>
+            </label>
+            <button class="sample-button" id="sampleBtn" type="button">先用示例试一试 <span aria-hidden="true">↗</span></button>
+            <div class="file-chip" id="fileChip" hidden><span class="file-chip-icon">▧</span><span class="file-chip-name" id="fileName"></span><button id="clearFile" type="button" aria-label="移除文件">×</button></div>
+
+            <div class="workspace-step second-step"><span class="step-number">02</span><span>选择风格</span></div>
+            <div class="preset-grid" role="group" aria-label="转换风格">
+              <button type="button" class="preset is-active" data-preset="studio" aria-pressed="true"><span class="preset-glyph">◈</span><strong>精致插画</strong><small>平衡色彩与曲线</small></button>
+              <button type="button" class="preset" data-preset="detail" aria-pressed="false"><span class="preset-glyph">✺</span><strong>丰富细节</strong><small>保留更多层次</small></button>
+              <button type="button" class="preset" data-preset="minimal" aria-pressed="false"><span class="preset-glyph">◇</span><strong>极简图形</strong><small>更少路径与颜色</small></button>
+            </div>
+            <div class="control"><div class="control-head"><label for="colors">色彩层次</label><output id="colorsValue" for="colors">16</output></div><input id="colors" type="range" min="4" max="40" step="1" value="16"><div class="range-hints"><span>简约</span><span>丰富</span></div></div>
+            <div class="control"><div class="control-head"><label for="smoothness">曲线精度</label><output id="smoothnessValue" for="smoothness">3 / 5</output></div><input id="smoothness" type="range" min="1" max="5" step="1" value="3"><div class="range-hints"><span>平滑</span><span>精细</span></div></div>
+            <button class="button button-convert" id="convertBtn" type="button" disabled><span id="convertLabel">生成矢量图</span><span aria-hidden="true">↗</span></button>
+            <p class="sidebar-note">自动描摹会生成可编辑的矢量初稿；复杂图片仍可能需要精修。</p>
+          </aside>
+
+          <div class="workspace-main">
+            <div class="canvas-toolbar"><div class="canvas-title"><span class="live-dot"></span><span>创作画布</span><span class="canvas-sub" id="canvasDimensions">暂无图片</span></div><div class="view-tabs" role="group" aria-label="预览类型"><button type="button" class="view-tab is-active" data-view="vector" aria-pressed="true">矢量预览</button><button type="button" class="view-tab" data-view="original" aria-pressed="false">原图</button></div></div>
+            <div class="canvas-area" id="canvasArea">
+              <div class="canvas-empty" id="emptyState"><div class="empty-art"><span class="empty-ring ring-a"></span><span class="empty-ring ring-b"></span><span class="empty-core">✦</span></div><p>你的下一个作品，从这里开始</p><span>上传图片，探索它的矢量形态</span></div>
+              <img id="originalPreview" class="canvas-image" alt="上传图片预览" hidden>
+              <div id="vectorPreview" class="vector-preview" aria-label="矢量预览" hidden></div>
+              <div id="busyOverlay" class="busy-overlay" hidden><span class="loader"></span><strong>正在描绘曲线…</strong><span>这可能需要几秒钟</span></div>
+            </div>
+            <div class="canvas-footer"><div class="result-meta"><span class="meta-dot"></span><span id="statusText" role="status" aria-live="polite">等待导入图片</span><span class="result-stats" id="resultStats"></span></div><div class="canvas-actions"><button id="undoBtn" class="icon-action" type="button" disabled title="撤销精修">↶ <span>撤销</span></button><button id="downloadBtn" class="button button-download" type="button" disabled>下载 SVG <span aria-hidden="true">↓</span></button></div></div>
+          </div>
+        </div>
+        <div class="refine-bar" id="refineBar" hidden><div><span class="refine-icon">✧</span><strong>路径精修</strong><span>点击预览中的任意色块，可修改颜色或删除该路径。</span></div><div class="refine-controls"><label for="pathColor">填充颜色</label><input id="pathColor" type="color" value="#8062a8" disabled><button id="deletePath" type="button" disabled>删除选中路径</button></div></div>
+      </div>
+    </section>
+
+    <section class="process-section container" id="process" aria-labelledby="process-title"><div class="section-topline section-topline-light"><span>02 / PROCESS</span><span>YOUR WORK, YOUR WAY</span></div><div class="process-header"><p class="section-kicker">A CLEARER WAY TO CREATE</p><h2 id="process-title">少一点繁琐。<br><span>多一点自由。</span></h2><p>我们把重复的描摹交给算法，把真正重要的选择留给创作者。</p></div><div class="process-grid"><article><span class="process-num">01</span><div class="process-symbol">↥</div><h3>导入灵感</h3><p>拖入图片即可开始。文件只在你的设备中读取，不需要账户。</p></article><article><span class="process-num">02</span><div class="process-symbol">✳</div><h3>生成路径</h3><p>浏览器本地提取色块与曲线，输出真正由 SVG 路径组成的画面。</p></article><article><span class="process-num">03</span><div class="process-symbol">⌁</div><h3>精修与交付</h3><p>调整颜色、移除路径、撤销修改，然后下载可在 Illustrator 中打开的文件。</p></article></div></section>
+
+    <section class="principles-section" id="principles" aria-labelledby="principles-title"><div class="container principles-inner"><div class="principles-copy"><span class="principles-pill"><span></span> BUILT WITH INTENTION</span><h2 id="principles-title">创作的主导权，<br>始终属于你。</h2><p>LIVECTRA 是老李发起的开源矢量实验。它提供清晰、私密、可继续编辑的起点，也坦诚承认：自动描摹无法替代所有手工绘制的判断。</p><a href="https://github.com/Oldleeo/laoli-livectra" target="_blank" rel="noopener noreferrer">在 GitHub 查看源代码 <span>↗</span></a></div><div class="principles-art" aria-hidden="true"><div class="art-sphere sphere-a"></div><div class="art-sphere sphere-b"></div><div class="art-sphere sphere-c"></div><span class="principles-gridline l1"></span><span class="principles-gridline l2"></span><span class="principles-gridline l3"></span><span class="principles-cross">✦</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div><a class="footer-logo" href="#top">LIVECTRA<span>®</span></a><p>由老李创作。为每一份值得继续打磨的灵感。</p></div><div class="footer-links"><a href="#studio">开始创作</a><a href="https://github.com/Oldleeo/laoli-livectra" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://github.com/Oldleeo/laoli-livectra/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT 开源许可 ↗</a></div></div><div class="container footer-bottom"><span>© 2026 老李 / LIVECTRA. 保留署名；源代码以 MIT 许可开放。</span><span>MADE WITH CARE, BUILT TO CREATE.</span></div></footer>
+
+  <script src="vendor/imagetracer.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
